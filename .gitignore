@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.expo/
+
+# Logs and local caches
+*.log
+.cache/
+*.tsbuildinfo
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and backups
+local-data/
+backups/
